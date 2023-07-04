@@ -1,7 +1,7 @@
 # AI-Image-Classifier
 
 
-The project aims to classify images into "Fake" and "Real" categories using the VGG16 model and transfer learning on the CIFAKE Dataset. The steps followed in the project can be summarized as follows:
+The project aims to classify images into "AI Generated" and "Real" categories using the VGG16 model and transfer learning on the CIFAKE Dataset. The steps followed in the project can be summarized as follows:
 
 1) Dataset Preparation: The project utilized a dataset containing images of both real and fake images. The dataset was split into training and testing sets.For convenience I have trained on 4000 images and tested on 400 images.
 2) Model Architecture: The VGG16 model, pre-trained on the ImageNet dataset, was used as the base model. The last few layers were modified to suit the binary classification task. A fully connected layer with a sigmoid activation function was added as the output layer.
